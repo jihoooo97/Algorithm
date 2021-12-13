@@ -1,4 +1,5 @@
 # **알고리즘 코딩테스트 스터디**
+> ![Last Commit](https://img.shields.io/github/last-commit/jihoooo97/Algorithm?style=flat&labelColor=white&logo=Java&logoColor=007396)  
 > 코딩 테스트 스터디 기록 (11/22 ~)
 > ### * 공부중인 강좌
 > [10주 완성 알고리즘 코딩테스트](https://edu.goorm.io/learn/lecture/554/10주-완성-알고리즘-코딩테스트)
