@@ -4,7 +4,7 @@
 > ### * 공부중인 강좌
 > [10주 완성 알고리즘 코딩테스트](https://edu.goorm.io/learn/lecture/554/10주-완성-알고리즘-코딩테스트)
 > ### * 풀이과정은 블로그에 포스팅 중
-> [![Blog Badge](https://img.shields.io/badge/-Jiho's_Blog-white?style=flat&logo=naver&link=https://blog.naver.com/yjh7827/222580604912)](https://blog.naver.com/yjh7827/222580604912)  
+> [![Blog Badge](https://img.shields.io/badge/-Jiho's_Blog-white?style=flat&logo=naver)](https://blog.naver.com/yjh7827/222580604912)  
 > ❗️매주 화 목 토 4문제씩 진행
 > 개인 사정이 생기면 일정 변동 가능성 있음
 ## 일정
