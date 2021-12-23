@@ -2,7 +2,6 @@ import java.io.*;
 import java.lang.*;
 import java.util.*;
 
-
 public class Main {
 	public static final Scanner scanner = new Scanner(System.in);
 

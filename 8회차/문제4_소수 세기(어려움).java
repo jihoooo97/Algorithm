@@ -2,20 +2,16 @@ import java.io.*;
 import java.lang.*;
 import java.util.*;
 
-
 public class Main {
 	public static final Scanner scanner = new Scanner(System.in);
 	public static final int MAX_VALUE = 1000000;
 	public static final Sieve sieve = new Sieve(MAX_VALUE);
 
-	public static ArrayList<Integer> getAllPrimeNumbers(int from, int to)
-	{
+	public static ArrayList<Integer> getAllPrimeNumbers(int from, int to) {
 		ArrayList<Integer> primes = new ArrayList<>();
 
-		for(int num = from; num <= to; num += 1)
-		{
-			if(sieve.isPrimeNumber(num) == true)
-			{
+		for(int num = from; num <= to; num += 1) {
+			if(sieve.isPrimeNumber(num) == true) {
 				primes.add(num);
 			}
 		}
@@ -54,18 +50,10 @@ class Sieve {
 		this.fillSieve();
 	}
 
-	/*
-	 *
-	 * @param num
-	 * @return 'num'이 소수라면 true, 그렇지 않으면 false
-	 */
 	public boolean isPrimeNumber(int num) {
 		return this.isPrime[num];
 	}
 
-	/**
-	 * isPrime 배열의 값을 채우는 함수
-	 */
 	private void fillSieve() {
 		Arrays.fill(isPrime, true);
 		isPrime[0] = isPrime[1] = false;

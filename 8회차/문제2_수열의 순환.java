@@ -5,13 +5,6 @@ import java.util.*;
 public class Main {
 	public static final Scanner scanner = new Scanner(System.in);
 
-	/*
-	 * 모든 수열이 동시에 최초의 원소를 만나는 최소 주기를 계산하는 함수
-	 *
-	 * @param n     수열의 수
-	 * @param sizes 각 순환 수열의 길이(주기)
-	 * @return
-	 */
 	public static long getGlobalPeriod(int n, long[] sizes) {
 		return MathUtil.getLCM(sizes);
 	}
@@ -24,10 +17,10 @@ public class Main {
 			sizes[i] = scanner.nextLong();
 		}
 
-		// 전체의 공통 주기만큼 이후에 다시 최초로 만나게 되므로
+		// 전체의 공통 주기만큼 이후에 다시 최초로 만남
 		long answer = 1 + getGlobalPeriod(n, sizes);
 
-		// 정답을 출력한다
+		// 정답 출력
 		System.out.println(answer);
 	}
 
@@ -43,11 +36,7 @@ class MathUtil {
 	public static long getLCM(long a, long b) {
 		return a * b / getGCM(a, b);
 	}
-	/**
-	 * 여러 숫자에 대한 공통 최소 공배수를 계산하는 함수
-	 * @param numbers
-	 * @return
-	 */
+
 	public static long getLCM(long[] numbers) {
 		if(numbers.length == 0) return 0;
 		
