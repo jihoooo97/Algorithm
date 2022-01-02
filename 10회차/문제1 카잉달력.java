@@ -45,37 +45,21 @@ class KaingCalendar
 		this.N   = N;
 	}
 
-	/**
-	 * 'index'번째 날짜의 X(왼쪽 번호)를 반환하는 함수
-	 *
-	 * @param index
-	 * @return
-	 */
+	/* 'index'번째 날짜의 X(왼쪽 번호)를 반환하는 함수 */
 	public int getXbyIndex(int index)
 	{
 		// index % M   0 => M
 		return ((index - 1) % M) + 1;
 	}
 
-	/**
-	 * 'index'번째 날짜의 Y(오른쪽 번호)를 반환하는 함수
-	 *
-	 * @param index
-	 * @return
-	 */
+	/* 'index'번째 날짜의 Y(오른쪽 번호)를 반환하는 함수 */
 	public int getYByIndex(int index)
 	{
 		return ((index - 1) % N) + 1;
 	}
 
-	/**
-	 *
-	 *
-	 * @param x
-	 * @param y
-	 * @return  이 달력에서 <x, y>라는 연도가 최초로 등장하는 순번
-	 *          등장하지 않는 연도라면 -1을 반환한다
-	 */
+	/* 이 달력에서 <x, y>라는 연도가 최초로 등장하는 순번
+	 * 등장하지 않는 연도라면 -1을 반환한다 */
 	public int getIndex(int x, int y)
 	{
 		int answer = - 1;
